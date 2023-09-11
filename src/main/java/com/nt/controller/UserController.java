@@ -24,4 +24,7 @@ public class UserController {
 		Integer id=service.saveUser(user);
 		return new ResponseEntity<String>("User is Saved with id "+id ,HttpStatus.CREATED );
 	}
+	
+	
+	
 }

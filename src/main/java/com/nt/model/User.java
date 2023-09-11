@@ -26,7 +26,7 @@ public class User {
 	private String email;
 	private String pwd;
 	
-//	@ElementCollection
-//	@CollectionTable(name="rolesTab",joinColumns = @JoinColumn(name="uid"))
-//	private List<String> roles;
+	@ElementCollection
+	@CollectionTable(name="rolesTab",joinColumns = @JoinColumn(name="uid"))
+	private List<String> roles;
 }
